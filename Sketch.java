@@ -23,35 +23,32 @@ public class Sketch extends PApplet {
    * Called repeatedly, anything drawn to the screen goes here
    */
   public void draw() {
-	  
-	// sample code, delete this stuff
 
-    //Draw Head
+    // Draw Head
     fill(255,255,0);
     ellipse(200, 80, 100, 100);
 
-    //Draw Body
+    // Draw Body
     fill(0);
-    rect(195,130,10,100);
+    rect(195, 130, 10, 100);
 
-    //Draw Legs
+    // Draw Legs
     stroke(0);
-    line(200,230,150,300);
-    line(200,230,250,300);
+    line(200, 230, 150, 300);
+    line(200, 230, 250, 300);
 
-    //Draw Arms
-    line(200,180,150,200);
-    line(200,180,250,150);
+    // Draw Arms
+    line(200, 180, 150, 200);
+    line(200, 180, 250, 150);
 
-    //Draw Sun
-    fill(255,255,0);
-    ellipse(0,0,100,100);
+    // Draw Sun
+    fill(255, 255, 0);
+    ellipse(0, 0, 100, 100);
 
-    //Foreground grass
-    fill(0,200,0);
-    rect(0,300,400,100);
+    // Foreground grass
+    fill(0, 200, 0);
+    rect(0, 300, 400, 100);
 
   }
   
-  // define other methods down here.
 }
